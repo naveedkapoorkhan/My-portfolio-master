@@ -2,9 +2,10 @@ import "./portfolio.css";
 
 import IMG1 from "../../assets/shopper.PNG";
 import IMG2 from "../../assets/calculator.PNG";
-
-import IMG3 from "../../assets/amazon.PNG";
-
+import IMG3 from "../../assets/Startup Agency Project.jpg";
+import IMG4 from "../../assets/amazon.PNG";
+import IMG5 from "../../assets/farmerHome.PNG";
+import IMG6 from "../../assets/Project4.jpg";
 import React from "react";
 
 //Portfolio function
@@ -23,7 +24,7 @@ const Portfolio = () => {
     {
       id: 2,
       title: "Amazon Clone",
-      img: IMG3,
+      img: IMG4,
       description:"A fully responsive Amazon e-commerce clone designed using HTML, CSS, and JavaScript.",
       technologies: "HTML | CSS | JavaScript | Express Js | Firebase",
       link: "https://amazon-clone-1554.vercel.app/",
@@ -33,13 +34,22 @@ const Portfolio = () => {
       id: 3,
       title: "Calculator",
       img: IMG2,
-      description:"A basic calculator web application built with HTML, CSS, and JavaScript, allowing users to perform basic arithmetic operations such as addition, subtraction, multiplication, and division. ",
+      description: " A basic calculator web application built with HTML, CSS, and JavaScript, allowing users to perform basic arithmetic operations such as addition, subtraction, multiplication, and division.",
       technologies: "HTML | CSS | JavaScript",
       link: "https://calculator8888888.vercel.app/",
       github: "https://github.com/naveedkapoorkhan/Simple_Calculator_InJavaScript_HTML_CSS",
     },
     
-    
+    {
+      id: 5,
+      title: "Kissan Mandi ",
+      img: IMG5,
+      description:"Kissan Mandi is a platform designed to connect farmers and traders.It provides features for listing crops, managing orders, and accessing market and weather information.",
+      technologies: "React | MongoDB | Express | TailWind",
+      link: "https://www.linkedin.com/feed/update/urn:li:ugcPost:7258390220859920384/?originTrackingId=e73Ff%2Bx1007XVeFX6xUHlQ%3D%3D",
+      github: "https://github.com/naveedkapoorkhan/KiisanMandi",
+    },
+   
   ];
 
   return (
