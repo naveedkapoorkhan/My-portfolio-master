@@ -2,10 +2,9 @@ import "./portfolio.css";
 
 import IMG1 from "../../assets/shopper.PNG";
 import IMG2 from "../../assets/calculator.PNG";
-import IMG3 from "../../assets/Startup Agency Project.jpg";
 import IMG4 from "../../assets/amazon.PNG";
 import IMG5 from "../../assets/farmerHome.PNG";
-import IMG6 from "../../assets/Project4.jpg";
+
 import React from "react";
 
 //Portfolio function
