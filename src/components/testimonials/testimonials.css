@@ -1,0 +1,116 @@
+.container.testimonials__container {
+    width: 40%;
+    padding-bottom: 4rem;
+}
+
+.client__avatar {
+    font-size: 4rem;
+    width: 4rem;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 0 auto 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.client__avatar a {
+    font-size: 40px;
+    color: var(--color-primary);
+}
+
+.testimonial {
+    background: var(--color-bg-variant);
+    text-align: center;
+    padding: 2rem;
+    border-radius: 2rem;
+    user-select: none;
+}
+
+.client__name {
+    font-weight: 500;
+    margin-top: 1rem;
+    color: var(--color-light);
+}
+
+.swiper-pagination-clickable .swiper-pagination-bullet {
+    background: var(--color-primary);
+}
+
+@media screen and (max-width: 1024px){
+    .container.testimonials__container {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .container.testimonials__container {
+        width: var(--container-width-sm);
+    }
+}
+
+/* PDF Modal Styles */
+.pdf-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.pdf-modal-content {
+  position: relative;
+  width: 80%;
+  height: 80%;
+  background: #fff;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  padding: 0.5rem 1rem;
+  border: none;
+  background: red;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.testimonial {
+    background: var(--color-bg-variant);
+    text-align: center; /* centers text and inline elements like img */
+    padding: 2rem;
+    border-radius: 2rem;
+    user-select: none;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* centers content horizontally */
+    justify-content: center; /* centers content vertically if needed */
+}
+
+.certificate-img {
+    width: 400px;      /* small size */
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    cursor: pointer;
+    transition: transform 0.2s;
+    display: block;     /* ensures proper centering */
+    margin: 0 auto;     /* centers the image horizontally */
+}
+
+.certificate-img:hover {
+    transform: scale(1.05);  /* slight zoom on hover */
+}
